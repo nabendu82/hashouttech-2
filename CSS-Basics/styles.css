@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+body{
+    background-color: #ffcccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-1{
+    background-color: lightyellow;
+    padding: 10px;
+}
+
+h1{
+    color: rgb(128, 0, 0);
+}
+
+.box-1 h3 {
+    background-color: aquamarine;
+    color: darkmagenta;
+    padding: 1%;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.8em;
+}
+
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color: hsl(240, 100%, 25%);
+    font-family: 'Ms Madi', Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    line-height: 1.4em;
+}
+
+#second-p{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+
+#box-model{
+    background-color: lightgray;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    /* margin: 20px; */
+
+    /* margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px; */
+
+    /* margin: 5px 10px 5px 10px; */
+
+    margin: 5px 10px;
+}
+
+.categories{
+    border: 1px solid rgb(106, 102, 102);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories a:hover{
+    color: red;
+}
+
+.categories li{
+    padding: 6px 0;
+    border-bottom: 1px dotted #333;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form .input-type{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    background-color: darkmagenta;
+    color: white;
+    padding: 10px 14px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.block{
+    float: left;
+    width: 33.33%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#main__block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid rgb(68, 64, 64);
+    box-sizing: border-box;
+}
+
+#side__bar{
+    float: right;
+    width: 30%;
+    padding: 15px;
+    border: 1px solid rgb(68, 64, 64);
+    box-sizing: border-box;
+}
