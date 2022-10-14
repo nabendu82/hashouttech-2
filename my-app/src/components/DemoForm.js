@@ -22,6 +22,12 @@ class DemoForm extends Component {
         })
     }
 
+    handleLangChange = e => {
+        this.setState({
+            language: e.target.value
+        })
+    }
+
     handleSubmit = e => {
         e.preventDefault();
         console.log(this.state);
