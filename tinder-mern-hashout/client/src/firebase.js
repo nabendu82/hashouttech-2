@@ -1,8 +1,8 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCMCzRekS2KaCINkq9-NoVYzra9z4Tb3LM",
-    authDomain: "tinder-firebase-hashout.firebaseapp.com",
-    projectId: "tinder-firebase-hashout",
-    storageBucket: "tinder-firebase-hashout.appspot.com",
-    messagingSenderId: "504248710713",
-    appId: "1:504248710713:web:a86184fd396c26f8c1bfe8"
+    apiKey: "AIzaSyDWygjogEQHw9L0QwVvLs2bv2iyjXv43-I",
+    authDomain: "tinder-mern-hashout.firebaseapp.com",
+    projectId: "tinder-mern-hashout",
+    storageBucket: "tinder-mern-hashout.appspot.com",
+    messagingSenderId: "286616928482",
+    appId: "1:286616928482:web:a2ac98fcc9e426b6969ebb"
 };
